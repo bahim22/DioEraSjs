@@ -1,5 +1,11 @@
 
-# Porfolio app, v 1.2
+# Porfolio app V1 Build 3
 
-v1 html draft of portfolio site using azure, css, html, js on W10;
-  will update with links to additional websites
+New Portfolio app to showcase different Bootstrap theme, edited original components, better document flow
+  Will use LightHouse scoring info and learned adjustments to start project out.
+  Create reusable theme for future builds
+  showcase different JS and CSS components.
+  add map-app from diff project
+  add database
+  add framework
+
