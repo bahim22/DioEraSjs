@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Ibrahima Balde Portfolio V1.3</title>
+    <meta name="description" content="Author: Ibrahima Balde; Images: Bootstrap, Templatemo, Pixabay" />
+    <meta name="description" content="Portfolio site designed by Ibrahima Balde/Dionysus, Year 1 web developer. Built with Visual Studio Code using HTML, CSS, JS, Django. Deployed with Microsoft Azure App Service." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Upper Template -->
+    <!-- load stylesheets -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" />
+    <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Bootstrap style -->
+    <link rel="stylesheet" href="css/hero-slider-style.css" />
+    <!-- Hero slider style (https://codyhouse.co/gem/hero-slider/) -->
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <!-- Magnific popup style (http://dimsemenov.com/plugins/magnific-popup/) -->
+    <link rel="stylesheet" href="css/templatemo-style.css" />
+    <!-- Templatemo style -->
+</head>
+
+<body>
+    <h2>Hima Portfolio</h2>
+    <p>Welcome</p>
+    <p>To My Site</p>
+    <ol>
+        <li>Projects</li>
+        <li>JavaScript</li>
+    </ol>
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" id="NavMain">
+        <li class="nav-item">
+            <a href="#tab1" class="nav-link active">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a
+        >
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#tab2">Services</a>
+            <a class="dropdown-item" href="#tab3">About</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#tab4">Contact</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a href="#tab5" class="nav-link">Projects</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link disabled">Disabled</a>
+        </li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div class="tab-pane fade show active" id="tab1" role="tabpanel"></div>
+        <div class="tab-pane fade" id="tab2" role="tabpanel"></div>
+        <div class="tab-pane fade" id="tab3" role="tabpanel"></div>
+        <div class="tab-pane fade" id="tab4" role="tabpanel"></div>
+        <div class="tab-pane fade" id="tab5" role="tabpanel"></div>
+    </div>
+
+    <script>
+        $("NavMain").click((e) => {
+            e.preventDefault();
+            $(this).tab("show");
+        });
+    </script>
+
+    <!--<script src="" async defer></script>-->
+</body>
+
+</html>
